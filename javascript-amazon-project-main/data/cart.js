@@ -38,4 +38,4 @@ export  function addtoCart(productId){
       }
     });
     cart=newCart;
-  }
+  } 
