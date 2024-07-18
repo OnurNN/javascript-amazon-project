@@ -38,7 +38,7 @@ return matchingProduct;
     }
 
     getPrice(){
-     return `$${formatCurrency(this.priceCents)}`
+     return `${formatCurrency(this.priceCents)}`
     }
 
     extraInfoHTML(){
@@ -67,6 +67,11 @@ return matchingProduct;
   }
 
  }
+/*
+const date=  new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+*/
 
  
  export const products = [
