@@ -102,7 +102,7 @@ loadProductsFetch().then(()=>{
 */
 
 
-/*export function loadProducts(fun){
+export function loadProducts(fun){
  const xhr= new XMLHttpRequest();
  xhr.addEventListener('load',()=>{
   products=JSON.parse(xhr.response).map((productDetails)=>{
